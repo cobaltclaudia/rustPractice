@@ -9,6 +9,8 @@ mod loops;
 mod functions;
 mod pointers_ref;
 mod structs;
+mod enums;
+mod cli;
 
 fn main() {
     print::print_funct();
@@ -22,4 +24,6 @@ fn main() {
     functions::run();
     pointers_ref::run();
     structs::run();
+    enums::run();
+    cli::run();
 }
