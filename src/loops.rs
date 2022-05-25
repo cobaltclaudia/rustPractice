@@ -1,5 +1,5 @@
 pub fn run() {
-    let mut count = 0;
+    let mut _count = 0;
 
     // loop{
     //     count+=1;
@@ -36,7 +36,7 @@ pub fn run() {
             println!("{}", x);
         }
 
-        count += 1;
+        _count += 1;
     }
 }
 
